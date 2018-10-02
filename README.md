@@ -10,7 +10,7 @@ Laravel_Forum_Discussion_APP
 2. php artisan key:generate 
 (Set your env file database create database in phpmyadmin)
 3. php artisan migrate
-4. composer dump-autoload
+4. composer dump-autoload or php artisan migrate --seed  to seeding all seed 
 5. setup Database (php artisan db:seed --class=FavoritesTableSeeder )
 6. setup Database (php artisan db:seed --class=UserQuestionsAnswersTableSeeder )
 7. setup Database (php artisan db:seed --class=VotablesTableSeeder  )
